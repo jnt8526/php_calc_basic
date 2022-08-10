@@ -1,19 +1,5 @@
 <?php 
 
-// spl_autoload_register('myAutoLoader');
-
-// function myAutoLoader($classname){
-// 	$path = "classes/";
-// 	$extension = ".class.php";
-// 	require_once $path . $classname . $extension;
-
-
-// 	if(!file_exists($fullPath)){
-// 		return false;
-// 	}
-
-// }
-
 spl_autoload_register('myAutoLoader');
 
 function myAutoLoader($classname){
